@@ -17,19 +17,35 @@ body {
   }
 
   .superior {
-    backdrop-filter: blur(10%);
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     width: 90%;
-    opacity: 0.4;
     height: 40vw;
-    text-align: center;
-    background: #ffffff;
-    font-size: 30px;
-    color: #000000;
+    background: rgba(255,255,255,0.3);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+  }
+
+  .letrasGrandes{
+    font-family: sageffine;
+  }
+
+  .letrasPequenas{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #TituloHome{
+    margin-left: 8vw;
+    margin-top: 15vh;
+    font-size: 10vw;
+  }
+
+  #estudEns{
+    font-size: 1.7vw;
+    margin-left: 8vw;
+    margin-top: -30px;
   }
