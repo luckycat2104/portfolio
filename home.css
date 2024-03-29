@@ -19,8 +19,6 @@ body {
   .superior {
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    width: 90vw;
-    height: 45vw;
     background: rgba(255,255,255,0.3);
     position: absolute;
     top: 0;
@@ -28,6 +26,11 @@ body {
     right: 0;
     bottom: 0;
     margin: auto;
+  }
+
+  #caixa1{
+    width: 90vw;
+    height: 45vw;
     margin-top: 7vh;
   }
 
@@ -84,5 +87,38 @@ body {
   .Mana2{
     position: absolute;
     right: 10px;
-    width: 40vw;
+    width: 40.2vw;
   }
+
+         /*  AQUI COMEÇA A SEGUNDA PARTE!!!! */
+
+  #background2{
+    background: url(./srs/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+  }
+
+  #fotoEu{
+    position: absolute;
+    height: 125vh;
+    margin-left: 7vw;
+  }
+
+  #caixaEu1{
+    width: 45vw;
+    height: 40vw;
+    margin-top: 140vh;
+    margin-left: 43vw;
+  }
+
+  #nomekk{
+    font-size: 10vh;
+    margin-top: 10vh;
+    margin-left: 6vw;
+  }
+
+.EXPsobreMim{
+    
+ }
