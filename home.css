@@ -68,18 +68,21 @@ body {
     margin-top: -9vh;
   }
 
+.botaoredondo{
+  border-radius: 7vw;
+    background-color: transparent;
+    border-color: black;
+    font-size: 1.5vw;
+}
+
   #BtSobreMim{
     margin-left: 8vw;
     margin-top: 3vh;
     height: 9vh;
     width: 17vw;
-    border-radius: 7vw;
-    background-color: transparent;
-    border-color: black;
-    font-size: 1.5vw;
   }
 
-  #BtSobreMim:hover{
+  .botaoredondo:hover{
     color: rgb(141, 0, 0);
     border-color: rgb(141, 0, 0);
   }
@@ -87,7 +90,7 @@ body {
   .Mana2{
     position: absolute;
     right: 10px;
-    width: 40.2vw;
+    width: 42.5vw;
   }
 
          /*  AQUI COMEÇA A SEGUNDA PARTE!!!! */
@@ -120,5 +123,49 @@ body {
   }
 
 .EXPsobreMim{
-    
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 3vh;
+    font-size: 1.5vw;
  }
+
+#botaoMais{
+  height: 8vh;
+  width: 17vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+#botaoCurr{
+  height: 8vh;
+  width: 17vw;
+  margin-left: 1vw;
+}
+
+        /*  AQUI COMEÇA A TERCEIRA PARTE!!!! */
+
+
+#fundo3{
+  background-image:url("./srs/fundo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 120vh;
+}
+
+#atsushi{
+  height: 100vh;
+}
+
+#baterista{
+  height: 100vh;
+}
+
+#jiluka{
+  height: 100vh;
+}
+
+#kyuho{
+  height: 100vh;
+
+}
