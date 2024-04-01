@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
   }
 
   .superior {
@@ -30,7 +30,7 @@ body {
 
   #caixa1{
     width: 90vw;
-    height: 45vw;
+    height: 40vw;
     margin-top: 7vh;
   }
 
@@ -58,7 +58,7 @@ body {
 
   #TituloHome{
     margin-left: 8vw;
-    margin-top: 15vh;
+    margin-top: 12vh;
     font-size: 12vw;
   }
 
@@ -90,7 +90,7 @@ body {
   .Mana2{
     position: absolute;
     right: 10px;
-    width: 42.5vw;
+    width: 35vw;
   }
 
          /*  AQUI COMEÇA A SEGUNDA PARTE!!!! */
@@ -100,7 +100,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 120vh;
+    height: 110vh;
   }
 
   #fotoEu{
@@ -112,7 +112,7 @@ body {
   #caixaEu1{
     width: 45vw;
     height: 40vw;
-    margin-top: 140vh;
+    margin-top: 115vh;
     margin-left: 43vw;
   }
 
@@ -150,22 +150,40 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
 }
 
 #atsushi{
-  height: 100vh;
+  position: absolute;
+  height: 95vh;
+  margin-top: 5vh;
+  margin-left: 50vw;
 }
 
 #baterista{
-  height: 100vh;
+  position: absolute;
+  height: 95vh;
+  width: 35% !important;
+  margin-top: 5vh;
+  margin-left: 55vw;
 }
 
 #jiluka{
-  height: 100vh;
+  position: absolute;
+  height: 105vh;
+  width: 40% !important;
+  margin-top: -5vh;
+  margin-left: 50vw;
 }
 
 #kyuho{
+  position: absolute;
   height: 100vh;
+  width: 35% !important;
+  margin-left: 55vw;
+}
 
+.materias{
+  height: 80vh;
+  width: 85vw;
 }
