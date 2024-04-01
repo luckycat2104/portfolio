@@ -178,7 +178,7 @@ body {
 
 .materias{
   height: 80vh;
-  width: 85vw;
+  width: 80vw;
   z-index: -1;
 }
 
@@ -197,7 +197,7 @@ body {
 .TitulMat{
   margin-top: 10vh;
   margin-left: 5vw;
-  font-size: 17vh;
+  font-size: 20vh;
 }
 
 .tri{
@@ -207,3 +207,11 @@ body {
   font-size: 3vh;
 }
 
+.tri1{
+  margin-left: 5vw;
+}
+
+.som{
+  background-color: transparent;
+  border-color: transparent;
+}
