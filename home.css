@@ -154,30 +154,23 @@ body {
 }
 
 #atsushi{
-  position: absolute;
-  height: 95vh;
-  margin-top: 5vh;
-  margin-left: 50vw;
+  height: 100vh;
+  margin-left: 55vw;
 }
 
 #baterista{
-  position: absolute;
-  height: 95vh;
+  height: 100vh;
   width: 35% !important;
-  margin-top: 5vh;
   margin-left: 55vw;
 }
 
 #jiluka{
-  position: absolute;
-  height: 105vh;
+  height: 100vh;
   width: 40% !important;
-  margin-top: -5vh;
   margin-left: 50vw;
 }
 
 #kyuho{
-  position: absolute;
   height: 100vh;
   width: 35% !important;
   margin-left: 55vw;
@@ -186,4 +179,31 @@ body {
 .materias{
   height: 80vh;
   width: 85vw;
+  z-index: -1;
 }
+
+.carousel-control-prev{
+  margin: 0;
+  position: absolute;
+  left: -1.5vw;
+}
+
+.carousel-control-next{
+  margin: 0;
+  position: absolute;
+  right: -2.5vw;
+}
+
+.TitulMat{
+  margin-top: 10vh;
+  margin-left: 5vw;
+  font-size: 17vh;
+}
+
+.tri{
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 2vw;
+  font-size: 3vh;
+}
+
