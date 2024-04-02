@@ -31,7 +31,7 @@ body {
   #caixa1{
     width: 90vw;
     height: 40vw;
-    margin-top: 7vh;
+    margin-top: 5em;
   }
 
   .letrasGrandes{
@@ -45,18 +45,18 @@ body {
   }
 
   .botaoAlto{
-    margin-top: 15vh;
+    margin-top: 5em;
     border-color: transparent;
     background-color: transparent;
     font-size: 1.2vw;
   }
 
   .btAltprm{
-    margin-left: 8vw;
+    margin-left: 7em;
   }
 
   .btAltSeg{
-    margin-left: 3vw;
+    margin-left: 3em;
   }
 
   .botaoAlto:hover {
@@ -64,15 +64,15 @@ body {
   }
 
   #TituloHome{
-    margin-left: 8vw;
-    margin-top: 12vh;
+    margin-left: 0.7em;
+    margin-top: 0.4em;
     font-size: 12vw;
   }
 
   #estudEns{
     font-size: 2vw;
-    margin-left: 8vw;
-    margin-top: -9vh;
+    margin-left: 4.4em;
+    margin-top: -2em;
   }
 
 .botaoredondo{
@@ -97,7 +97,7 @@ body {
   .Mana2{
     position: absolute;
     right: 10px;
-    width: 35vw;
+    width: 37vw;
   }
 
          /*  AQUI COMEÇA A SEGUNDA PARTE!!!! */
