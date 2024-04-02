@@ -44,15 +44,22 @@ body {
     font-weight: 600;
   }
 
-  #AreasC{
-    margin-left: 8vw;
-    margin-top: 9vh;
+  .botaoAlto{
+    margin-top: 15vh;
     border-color: transparent;
     background-color: transparent;
     font-size: 1.2vw;
   }
 
-  #AreasC:hover {
+  .btAltprm{
+    margin-left: 8vw;
+  }
+
+  .btAltSeg{
+    margin-left: 3vw;
+  }
+
+  .botaoAlto:hover {
     color: rgb(141, 0, 0);
   }
 
@@ -211,7 +218,53 @@ body {
   margin-left: 5vw;
 }
 
-.som{
+.tri:hover{
+  color: rgb(141, 0, 0);
+}
+
+
+        /*  SOBRE MIM  !!!! */
+
+#backgroundSobreMim{
+  background-image: url(./srs/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#euDeNovo{
+  position: absolute;
+  height: 104vh;
+  margin-left: 3vw;
+}
+
+#caixaSobreMim{
+  height: 73vh;
+  width: 60vw;
+  margin-left: 33vw;
+}
+
+#maisSobreMim{
+  font-size: 7vh;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+#maisSobreMimTXT{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 3vh;
+  text-align: justify;
+}
+
+#botaoVoltarEu{
+  margin-left: 3vw;
+  margin-top: 4vh;
   background-color: transparent;
   border-color: transparent;
+}
+
+#botaoVoltarEu:hover{
+  color: rgb(141, 0, 0);
 }
