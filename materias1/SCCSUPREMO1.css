@@ -37,11 +37,18 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 20px;
   background: rgba(255,255,255,0.3);
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
 }
+
+.atividades{
+  height: 70vh !important;
+  width: 80vw;
+  padding-top: 5vh;
+  padding-left: 4vw;
+}
+
 
