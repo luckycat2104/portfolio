@@ -222,6 +222,12 @@ body {
   color: rgb(141, 0, 0);
 }
 
+.botaoPPE{
+  width: 10vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
 
         /*  SOBRE MIM  !!!! */
 
@@ -267,4 +273,11 @@ body {
 
 #botaoVoltarEu:hover{
   color: rgb(141, 0, 0);
+}
+
+       /*  EM BREVE  !!!! */
+
+.imageneskk{
+  display: inline-flex;
+  float: right;
 }
