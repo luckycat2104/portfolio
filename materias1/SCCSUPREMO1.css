@@ -47,8 +47,18 @@ body {
 .atividades{
   height: 70vh !important;
   width: 80vw;
-  padding-top: 5vh;
+  padding-top: 7vh;
   padding-left: 4vw;
+  display: flex;
+  flex-direction: row;
 }
 
+.texto{
+  width: 35vw;
+}
 
+.bagulhetinhoDaDireita{
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
