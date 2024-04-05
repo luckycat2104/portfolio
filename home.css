@@ -162,6 +162,7 @@ body {
 
 #atsushi{
   height: 100vh;
+  width: 32% !important;
   margin-left: 55vw;
 }
 
